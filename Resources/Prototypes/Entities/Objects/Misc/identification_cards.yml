@@ -640,7 +640,7 @@
     - SyndicateAgent
 
 - type: entity
-  parent: [ IDCardStandard, BaseMajorContraband ]
+  parent: [ IDCardStandard, BasePirateContraband ]
   id: PirateIDCard
   name: pirate ID card
   components:

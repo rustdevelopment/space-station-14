@@ -3,6 +3,7 @@
   hostile:
     - DungeonSoviet
     - DungeonSyndicate
+    - DungeonPirate
     - Dragon
     - NanoTrasen
     - NanoTrasenSilicon
@@ -31,6 +32,7 @@
     - Syndicate
     - SyndicateSilicon
     - DungeonSyndicate
+    - DungeonPirate
     - Zombie
     - Revolutionary
     - Abyss
@@ -51,6 +53,30 @@
     - Syndicate
     - SyndicateSilicon
     - DungeonSoviet
+    - DungeonPirate
+    - Zombie
+    - Revolutionary
+    - Abyss
+    - Vampire
+    - Changeling
+    - AllHostile
+    - Gorilla
+    - Abductor
+
+- type: npcFaction
+  id: DungeonPirate
+  hostile:
+    - DungeonSoviet
+    - DungeonSyndicate
+    - Dragon
+    - NanoTrasen
+    - NanoTrasenSilicon
+    - Mouse
+    - PetsNT
+    - SimpleHostile
+    - Syndicate
+    - SyndicateSilicon
+    - Xeno
     - Zombie
     - Revolutionary
     - Abyss
@@ -81,6 +107,7 @@
     - Abyss
     - DungeonSoviet
     - DungeonSyndicate
+    - DungeonPirate
     - Abductor
 
 - type: npcFaction
@@ -91,6 +118,7 @@
   - SyndicateSilicon
   - DungeonSyndicate
   - DungeonSoviet
+  - DungeonPirate
   - Xeno
   - Revolutionary
   - Abyss
@@ -113,6 +141,7 @@
     - PetsNT
     - DungeonSyndicate
     - DungeonSoviet
+    - DungeonPirate
     - Abyss
     - Vampire
     - Changeling
@@ -132,6 +161,7 @@
   - SyndicateSilicon # starlight
   - DungeonSyndicate
   - DungeonSoviet
+  - DungeonPirate
   - Passive
   - PetsNT
   - Zombie

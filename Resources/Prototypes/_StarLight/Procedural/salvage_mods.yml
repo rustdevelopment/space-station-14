@@ -4,6 +4,14 @@
   biome: Abyss
   difficulties: 
     - Challenging   
+
+- type: salvageBiomeMod
+  id: Tropics
+  desc: salvage-biome-mod-tropics
+  biome: Tropics
+  difficulties: 
+    - Difficult
+
  #   - Difficult
 
 #- type: salvageDungeonMod
@@ -53,6 +61,15 @@
     - Snow
   difficulties: 
     - Impossible
+
+- type: salvageDungeonMod
+  id: PirateStronghold
+  desc: salvage-dungeon-mod-pirate-stronghold
+  proto: PirateDungeon
+  biomes:
+    - Tropics
+  difficulties:
+    - Difficult
 
 #- type: salvageDungeonMod
 #  id: ElderArenaMod
@@ -172,6 +189,7 @@
   cost: 1
   temperature: 275.15 # 2C
   biomes:
+    - Tropics
     - Caves
     #- LowDesert
     - Grasslands
@@ -239,6 +257,7 @@
     - 0
     - 10 # nitrous oxide
   biomes:
+    - Tropics
     - Caves
     #- LowDesert
     - Snow
@@ -311,4 +330,3 @@
     - Lava
   difficulties: 
     - Challenging
- 

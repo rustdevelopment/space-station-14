@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseSyndicateContraband]
+  parent: [BaseItem, BasePirateContraband]
   id: PirateBreakerUnlimited
   suffix: PirateBreaker
   name: Pirate Lock Breaker

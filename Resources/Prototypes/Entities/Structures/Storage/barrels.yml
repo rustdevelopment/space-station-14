@@ -231,3 +231,46 @@
         reagents:
         - ReagentId: Uranium
           Quantity: 500
+
+- type: entity
+  parent: BaseBarrelChem
+  id: BaseBarrelChemWoodenFilledRum
+  name: rum barrel
+  description: An old wooden barrel full of rum.
+  components:
+  - type: Sprite
+    state: woodenbarrel
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        maxVol: 500
+        reagents:
+        - ReagentId: Rum
+          Quantity: 500
+
+- type: entity
+  parent: BaseBarrelChem
+  id: BaseBarrelChemWoodenExplosive
+  name: explosive barrel
+  description: An incredibly fragile explosive barrel.
+  components:
+  - type: Sprite
+    state: explosivebarrel
+  - type: DamageOnToolInteract
+    tools: Welding
+    weldingDamage:
+      types:
+        Heat: 10
+  - type: PacifismDangerousAttack
+  - type: StaticPrice
+    price: 2000
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 60 # Same explosive power as a welding tank
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1
+      behaviors:
+      - !type:ExplodeBehavior

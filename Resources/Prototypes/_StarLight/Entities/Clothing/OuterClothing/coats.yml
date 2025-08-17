@@ -110,6 +110,7 @@
         Heat: 0.65
         Radiation: 0.9
 
+<<<<<<< Updated upstream
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatGreytiderTrenchcoat
@@ -125,3 +126,27 @@
     - id: Cigarette
       amount: 3
     - id: CheapLighter
+=======
+#Pirate
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BasePirateContraband]
+  id: ClothingOuterArmorPirateCaptain
+  name: pirate captain's coat
+  description: A worn down pirate captain's coat with some added armor plating. Smells like the sea.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/pirate_captain_coat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/pirate_captain_coat.rsi
+  - type: Pierceable
+    level: Metal
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+>>>>>>> Stashed changes

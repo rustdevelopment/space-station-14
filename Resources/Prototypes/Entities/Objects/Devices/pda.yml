@@ -1460,7 +1460,7 @@
     state: pda-seniorofficer
 
 - type: entity
-  parent: [ BaseMajorContraband, SyndiPDA ]
+  parent: [ BasePirateContraband, SyndiPDA ]
   id: PiratePDA
   name: pirate PDA
   description: Yargh!

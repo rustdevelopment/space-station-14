@@ -261,7 +261,7 @@
 
 - type: entity
   name: energy cutlass
-  parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
+  parent: [BaseMeleeWeaponEnergy, BasePirateContraband]
   id: EnergyCutlass
   description: An exotic energy weapon.
   components:

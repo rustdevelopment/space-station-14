@@ -152,6 +152,9 @@
   id: ShowWires
 
 - type: Tag
+  id: PirateDungeon
+
+- type: Tag
   id: SovietDungeon
 
 - type: Tag

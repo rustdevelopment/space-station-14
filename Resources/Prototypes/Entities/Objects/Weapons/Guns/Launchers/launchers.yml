@@ -200,7 +200,7 @@
 
 - type: entity
   name: pirate cannon
-  parent: BaseWeaponLauncher
+  parent: [ BaseWeaponLauncher, BasePirateContraband ]
   id: WeaponLauncherPirateCannon
   description: Kaboom!
   components:

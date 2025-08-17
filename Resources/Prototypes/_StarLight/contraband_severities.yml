@@ -3,5 +3,9 @@
   examineText: contraband-examine-text-soviet
 
 - type: contrabandSeverity
+  id: Pirate
+  examineText: contraband-examine-text-pirate
+
+- type: contrabandSeverity
   id: AdvancedCyberlimbs
   examineText: contraband-examine-text-advancedcyberlimbs

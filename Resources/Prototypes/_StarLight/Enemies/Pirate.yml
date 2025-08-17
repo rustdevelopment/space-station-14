@@ -1,0 +1,80 @@
+- type: entity
+  name: pirate
+  parent: BaseMobHuman
+  id: MobPirate
+  components:
+    - type: Prying
+      pryPowered: true
+      force: true
+      speedModifier: 1.5
+      useSound:
+        path: /Audio/Items/crowbar.ogg
+    - type: NpcFactionMember
+      factions:
+        - DungeonPirate
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGear
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: SimpleHumanoidHostileCompound
+      blackboard:
+        NavInteract: !type:Bool
+          true
+
+#knife
+- type: entity
+  suffix: Knife
+  parent: MobPirate
+  id: MobPirateKnife
+  components:
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGearKnife
+
+#revolver
+- type: entity
+  suffix: Revolver
+  parent: MobPirate
+  id: MobPirateRevolver
+  components:
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGearRevolver
+
+#cutlass
+- type: entity
+  suffix: Cutlass
+  parent: MobPirate
+  id: MobPirateCutlass
+  components:
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGearCutlass
+
+#blunderbuss
+- type: entity
+  suffix: Blunderbuss
+  parent: MobPirate
+  id: MobPirateBlunderbuss
+  components:
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGearBlunderbuss
+
+#captain
+- type: entity
+  suffix: Captain
+  parent: MobPirate
+  id: MobPirateCaptain
+  components:
+    - type: Loadout
+      prototypes:
+        - PirateDungeonGearCaptain
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        200: Critical
+        300: Dead    

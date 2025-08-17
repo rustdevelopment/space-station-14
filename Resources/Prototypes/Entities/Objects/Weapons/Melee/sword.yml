@@ -23,7 +23,7 @@
 #Shortswords
 - type: entity
   name: cutlass
-  parent: [ BaseSword, BaseMajorContraband ]
+  parent: [ BaseSword, BasePirateContraband ]
   id: Cutlass
   description: A wickedly curved blade, often seen in the hands of space pirates.
   components:

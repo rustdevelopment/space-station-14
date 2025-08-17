@@ -162,7 +162,7 @@
 - type: entity
   id: BaseCannonBall
   name: base cannon ball
-  parent: [BaseItem, BaseMajorContraband]
+  parent: [BaseItem, BasePirateContraband]
   abstract: true
   components:
   - type: Tag

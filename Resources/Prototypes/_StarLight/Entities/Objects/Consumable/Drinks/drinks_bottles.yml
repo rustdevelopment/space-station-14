@@ -17,3 +17,23 @@
   - type: Sealable
   - type: StaticPrice
     price: 300
+
+- type: entity
+  parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
+  id: DrinkRumnizineBottleFull
+  name: Rumnizine bottle
+  description: The best cure for and cause of scurvy.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Rumnizine
+          Quantity: 100
+  - type: Label
+    currentLabel: reagent-name-rumnizine
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/rumbottle.rsi
+  - type: Sealable
+  - type: StaticPrice
+    price: 300

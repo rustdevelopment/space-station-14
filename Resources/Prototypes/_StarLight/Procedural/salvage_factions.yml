@@ -37,6 +37,33 @@
 #    DefenseStructure: WeaponTurretDungeonSyndicate
 
 - type: salvageFaction
+  id: Pirate
+  desc: salvage-faction-pirate
+  biomes:
+    - Tropics
+  entries:
+    #knife
+    - proto: MobPirateKnife
+      cost: 3
+    #revolver
+    - proto: MobPirateRevolver
+      cost: 8
+    #cutlass
+    - proto: MobPirateCutlass
+      cost: 10
+    #blunderbuss
+    - proto: MobPirateBlunderbuss
+      cost: 8
+    #captain
+    - proto: MobPirateCaptain
+      cost: 30
+      prob: 0.5
+  difficulties: 
+    - Difficult
+  configs:
+    DefenseStructure: WeaponTurretSyndicateBroken
+
+- type: salvageFaction
   id: Soviet
   desc: salvage-faction-soviet
   biomes:

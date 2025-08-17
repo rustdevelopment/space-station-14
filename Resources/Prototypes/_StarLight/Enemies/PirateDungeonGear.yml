@@ -1,0 +1,53 @@
+- type: startingGear
+  id: PirateDungeonGear
+  equipment:
+    head: ClothingHeadBandRed
+    jumpsuit: ClothingUniformJumpsuitPirate
+    shoes: ClothingShoesBootsLaceup
+    id: PirateIDCard
+
+#knife
+- type: startingGear
+  id: PirateDungeonGearKnife
+  parent: PirateDungeonGear
+  inhand:
+  - KitchenKnife
+
+#revolver
+- type: startingGear
+  id: PirateDungeonGearRevolver
+  parent: PirateDungeonGear
+  inhand:
+  - WeaponRevolverPirate
+
+#cutlass
+- type: startingGear
+  id: PirateDungeonGearCutlass
+  parent: PirateDungeonGear
+  inhand:
+  - Cutlass
+
+#blunderbuss
+- type: startingGear
+  id: PirateDungeonGearBlunderbuss
+  parent: PirateDungeonGear
+  equipment:
+    belt: ClothingBeltBandolier
+    head: ClothingHeadHatPirateTricord
+    outerClothing: ClothingOuterCoatPirate
+    gloves: ClothingHandsKnuckleDustersBrass
+  inhand:
+  - WeaponShotgunBlunderbuss
+
+#captain
+- type: startingGear
+  id: PirateDungeonGearCaptain
+  parent: PirateDungeonGear
+  equipment:
+    neck: ClothingNeckCloakPirateCap
+    head: ClothingHeadHatPirate
+    shoes: ClothingShoesBootsJack
+    outerClothing: ClothingOuterArmorPirateCaptain
+    gloves: ClothingHandsKnuckleDustersBrass
+  inhand:
+  - WeaponLauncherPirateCannon

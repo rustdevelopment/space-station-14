@@ -262,7 +262,7 @@
 
 - type: entity
   name: blunderbuss
-  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
+  parent: [BaseWeaponShotgun, BasePirateContraband]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
   description: Deadly at close range.
@@ -273,7 +273,6 @@
     - 0,0,4,0
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
-  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     spread: 15
     fireRate: 2

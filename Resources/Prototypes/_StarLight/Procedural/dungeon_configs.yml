@@ -300,3 +300,18 @@
       SouthEast: BrickTileWhiteInnerSe
       NorthWest: BrickTileWhiteInnerNw
       NorthEast: BrickTileWhiteInnerNe
+
+#========================================================================
+
+- type: dungeonConfig
+  id: PirateDungeon
+  layers:
+  - !type:PrefabDunGen
+    roomWhitelist:
+      tags:
+      - PirateDungeon
+    presets:
+    - Bucket
+    - Wow
+    - SpaceShip
+    - Tall

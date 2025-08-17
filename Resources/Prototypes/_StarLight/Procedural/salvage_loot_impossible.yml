@@ -84,6 +84,8 @@
 
         - proto: DrinkVodkizineBottleFull
           cost: 3                    
+        - proto: DrinkRumnizineBottleFull
+          cost: 3             
         - proto: MedkitBruteFilled
           cost: 6
         - proto: MedkitBurnFilled
