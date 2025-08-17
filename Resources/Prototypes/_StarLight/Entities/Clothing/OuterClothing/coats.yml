@@ -110,7 +110,6 @@
         Heat: 0.65
         Radiation: 0.9
 
-<<<<<<< Updated upstream
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatGreytiderTrenchcoat
@@ -126,7 +125,7 @@
     - id: Cigarette
       amount: 3
     - id: CheapLighter
-=======
+
 #Pirate
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BasePirateContraband]
@@ -149,4 +148,3 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.9
->>>>>>> Stashed changes
