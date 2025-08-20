@@ -1,212 +1,79 @@
 # Rooms
-# - 19x5
+# - 17x5
 - type: dungeonRoom
-  id: PirateDungeon19x5a
-  size: 19,5
+  id: PirateDungeon17x5a
+  size: 17,5
   atlas: /Maps/_Starlight/Dungeon/pirate.yml
   offset: 0,0
   tags:
-    - PirateDungeon
+  - PirateDungeon
 
 - type: dungeonRoom
-  id: PirateDungeon19x5b
-  size: 19,5
+  id: PirateDungeon17x5b
+  size: 17,5
   atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 20,0
+  offset: 18,0
   tags:
-    - PirateDungeon
+  - PirateDungeon
 
 - type: dungeonRoom
-  id: PirateDungeon19x5c
-  size: 19,5
+  id: PirateDungeon17x5c
+  size: 17,5
   atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 40,0
+  offset: 18,0
   tags:
+  - PirateDungeon
+
+# - 7x7
+  - type: dungeonRoom
+    id: PirateDungeon7x7a
+    size: 7,7
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,6
+    tags:
     - PirateDungeon
 
-- type: dungeonRoom
-  id: PirateDungeon19x5d
-  size: 19,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 60,0
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon19x5e
-  size: 19,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 80,0
-  tags:
-    - PirateDungeon
-
-# - 9x9
-- type: dungeonRoom
-  id: PirateDungeon9x9a
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 0,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9b
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 10,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9c
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 20,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9d
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 30,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9e
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 40,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9f
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 50,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9g
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 60,6
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon9x9h
-  size: 9,9
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 70,6
-  tags:
-    - PirateDungeon
-
-# - 5x3
-- type: dungeonRoom
-  id: PirateDungeon5x3a
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 0,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3b
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 6,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3c
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 12,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3d
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 18,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3e
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 24,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3f
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 30,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3g
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 36,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3h
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 42,16
-  tags:
-    - PirateDungeon
-
-- type: dungeonRoom
-  id: PirateDungeon5x3i
-  size: 5,3
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 48,16
-  tags:
+# - 7x5
+  - type: dungeonRoom
+    id: PirateDungeon7x5a
+    size: 7,5
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,14
+    tags:
     - PirateDungeon
 
 # - 5x5
-- type: dungeonRoom
-  id: PirateDungeon5x5a
-  size: 5,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 0,20
-  tags:
+  - type: dungeonRoom
+    id: PirateDungeon5x5a
+    size: 5,5
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,20
+    tags:
     - PirateDungeon
 
-- type: dungeonRoom
-  id: PirateDungeon5x5b
-  size: 5,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 6,20
-  tags:
+# - 5x3
+  - type: dungeonRoom
+    id: PirateDungeon5x3a
+    size: 5,3
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,26
+    tags:
     - PirateDungeon
 
-- type: dungeonRoom
-  id: PirateDungeon5x5c
-  size: 5,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 12,20
-  tags:
+# - 11x3
+  - type: dungeonRoom
+    id: PirateDungeon11x3a
+    size: 11,3
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,30
+    tags:
     - PirateDungeon
 
-- type: dungeonRoom
-  id: PirateDungeon5x5d
-  size: 5,5
-  atlas: /Maps/_Starlight/Dungeon/pirate.yml
-  offset: 18,20
-  tags:
+# - 7x3
+  - type: dungeonRoom
+    id: PirateDungeon7x3a
+    size: 7,3
+    atlas: /Maps/_Starlight/Dungeon/pirate.yml
+    offset: 0,34
+    tags:
     - PirateDungeon

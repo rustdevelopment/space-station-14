@@ -315,3 +315,81 @@
     - Wow
     - SpaceShip
     - Tall
+
+  - !type:CorridorDunGen
+    width: 5
+    tile: FloorWood
+
+  - !type:DungeonEntranceDunGen
+    count: 5
+    tile: FloorWood
+    contents: PirateDungeonEntrance
+
+  - !type:RoomEntranceDunGen
+    tile: FloorWood
+    contents: PirateDungeonRoomEntrance
+
+  - !type:EntranceFlankDunGen
+    tile: FloorWood
+    contents: PirateDungeonWindow
+
+  - !type:WallMountDunGen
+    tile: FloorWood
+    contents: PirateDungeonWalls
+
+  - !type:BoundaryWallDunGen
+    tile: FloorWood
+    wall: WallWood
+    cornerWall: WallWood
+
+  - !type:AutoCablingDunGen
+    entity: CableApcExtension
+
+  - !type:CornerClutterDunGen
+    contents: BaseClutter
+
+  - !type:CorridorDecalSkirtingDunGen
+    cardinalDecals:
+      South: BrickTileWhiteLineS
+      East: BrickTileWhiteLineE
+      North: BrickTileWhiteLineN
+      West: BrickTileWhiteLineW
+    cornerDecals:
+      SouthEast: BrickTileWhiteCornerSe
+      SouthWest: BrickTileWhiteCornerSw
+      NorthEast: BrickTileWhiteCornerNe
+      NorthWest: BrickTileWhiteCornerNw
+    pocketDecals:
+      SouthWest: BrickTileWhiteInnerSw
+      SouthEast: BrickTileWhiteInnerSe
+      NorthWest: BrickTileWhiteInnerNw
+      NorthEast: BrickTileWhiteInnerNe
+
+- type: entityTable
+  id: PirateDungeonEntrance
+  table: !type:GroupSelector
+    children:
+    - id: CableApcExtension
+    - id: GoldDoor
+
+- type: entityTable
+  id: PirateDungeonRoomEntrance
+  table: !type:GroupSelector
+    children:
+    - id: CableApcExtension
+    - id: WoodDoor
+
+- type: entityTable
+  id: PirateDungeonWindow
+  table: !type:GroupSelector
+    children:
+    - id: CableApcExtension
+    - id: WallWood
+    - id: PoweredSmallLight
+
+- type: entityTable
+  id: PirateDungeonWalls
+  table: !type:GroupSelector
+    children:
+    # Posters
+    - id: PirateFlag
