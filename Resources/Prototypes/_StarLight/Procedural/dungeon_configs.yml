@@ -312,16 +312,13 @@
       - PirateDungeon
     presets:
     - Bucket
-    - Wow
-    - SpaceShip
-    - Tall
 
   - !type:CorridorDunGen
-    width: 5
+    width: 3
     tile: FloorWood
 
   - !type:DungeonEntranceDunGen
-    count: 5
+    count: 3
     tile: FloorWood
     contents: PirateDungeonEntrance
 
@@ -347,23 +344,6 @@
 
   - !type:CornerClutterDunGen
     contents: BaseClutter
-
-  - !type:CorridorDecalSkirtingDunGen
-    cardinalDecals:
-      South: BrickTileWhiteLineS
-      East: BrickTileWhiteLineE
-      North: BrickTileWhiteLineN
-      West: BrickTileWhiteLineW
-    cornerDecals:
-      SouthEast: BrickTileWhiteCornerSe
-      SouthWest: BrickTileWhiteCornerSw
-      NorthEast: BrickTileWhiteCornerNe
-      NorthWest: BrickTileWhiteCornerNw
-    pocketDecals:
-      SouthWest: BrickTileWhiteInnerSw
-      SouthEast: BrickTileWhiteInnerSe
-      NorthWest: BrickTileWhiteInnerNw
-      NorthEast: BrickTileWhiteInnerNe
 
 - type: entityTable
   id: PirateDungeonEntrance
