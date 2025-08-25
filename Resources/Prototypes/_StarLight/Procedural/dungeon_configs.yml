@@ -312,64 +312,85 @@
       - PirateDungeon
     presets:
     - Bucket
+    - Wow
+    - SpaceShip
+    - Tall
 
   - !type:CorridorDunGen
     width: 3
     tile: FloorWood
 
   - !type:DungeonEntranceDunGen
-    count: 3
+    count: 2
     tile: FloorWood
-    contents: PirateDungeonEntrance
+    contents: BaseAirlock
 
   - !type:RoomEntranceDunGen
     tile: FloorWood
-    contents: PirateDungeonRoomEntrance
+    contents: BaseAirlock
 
   - !type:EntranceFlankDunGen
     tile: FloorWood
-    contents: PirateDungeonWindow
+    contents: BaseWindow
+
+  - !type:ExternalWindowDunGen
+    tile: FloorWood
+    contents: BaseWindow
 
   - !type:WallMountDunGen
+    contents: PirateWalls
     tile: FloorWood
-    contents: PirateDungeonWalls
 
   - !type:BoundaryWallDunGen
-    tile: FloorWood
     wall: WallWood
-    cornerWall: WallWood
+    tile: FloorWood
+
+  - !type:JunctionDunGen
+    width: 1
+    tile: FloorWood
+    contents: BaseAirlock
 
   - !type:AutoCablingDunGen
     entity: CableApcExtension
 
-  - !type:CornerClutterDunGen
-    contents: BaseClutter
-
+# Spawn groups
+# Basic
 - type: entityTable
-  id: PirateDungeonEntrance
+  id: BaseClutter
   table: !type:GroupSelector
     children:
-    - id: CableApcExtension
-    - id: GoldDoor
+    - id: PottedPlantRandom
+      amount: 1
 
 - type: entityTable
-  id: PirateDungeonRoomEntrance
+  id: BaseAirlock
   table: !type:GroupSelector
     children:
     - id: CableApcExtension
     - id: WoodDoor
 
 - type: entityTable
-  id: PirateDungeonWindow
+  id: BaseWindow
+  table: !type:GroupSelector
+    children:
+    - id: ClockworkWindow
+    - id: Grille
+
+# Snowy labs
+- type: entityTable
+  id: PirateEntrance
   table: !type:GroupSelector
     children:
     - id: CableApcExtension
-    - id: WallWood
-    - id: PoweredSmallLight
+    - id: GoldDoor
 
 - type: entityTable
-  id: PirateDungeonWalls
+  id: PirateWalls
   table: !type:GroupSelector
     children:
     # Posters
     - id: PirateFlag
+    - id: ShelfBar
+      prob: 0.2
+    - id: RandomPainting
+      prob: 0.05

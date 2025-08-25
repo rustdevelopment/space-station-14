@@ -46,6 +46,7 @@
   equipment:
     neck: ClothingNeckCloakPirateCap
     head: ClothingHeadHatPirate
+    eyes: ClothingEyesEyepatch
     shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorPirateCaptain
     gloves: ClothingHandsKnuckleDustersBrass
